@@ -1,0 +1,47 @@
+#food-details{
+   /* border: 1px solid salmon; */
+   /* width: 280px; */
+   /* box-shadow: 7px 7px 12px black; */
+   border-radius: 10px;
+   padding: 5px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 20px;
+}
+#food-details img{
+    width: 220px;
+    padding: 10px;
+}
+#food-details  a:hover{
+text-decoration: none;
+}
+
+.food-item-div{
+    background-color: rgb(181, 181, 182);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+/* Button style   */
+ #details{
+    border-radius: 5px;
+    background-color: white;
+    width: 80px;
+    padding: 5px;
+ }
+
+ /* food Ingredinet style starts here  */
+ #food-ingredient{
+     width: 300px;
+     background-color: rgb(194, 204, 204);
+     margin: auto;
+     border-radius: 10px;
+     padding: 10px;
+ }
+
+ #food-ingredient img{
+    width: 278px;
+    
+
+ }
